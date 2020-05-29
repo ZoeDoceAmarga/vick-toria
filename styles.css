@@ -1,8 +1,16 @@
 h1 {
    text-align: center; color:rgb(240, 42, 42);font-family:cursive; text-shadow:black 1px 1px 1px;text-shadow: black -1px 1px 1px; text-shadow: black 1px -1px 1px;text-shadow: black -1px -1px 1px
 }
-header{
-
-
+img{width:60%;margin: 10px 10px 20px 10px;}
+div.diferentona img { width:auto; margin-top: 20px; position: relative; display: block};
+div.diferentona text{text-align: end;}
+body { 
+   display: table-cell; margin-right: 10px; margin-left: 10px; 
+}
+.container-fluid{
+  display: block; background-color: rgb(235, 155, 165);
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
+@media (min-width: 360px) (max-width: 4000px)
 
 /*<link rel="stylesheet" href="styles.css">     << esse link é para anexar o CSS */
